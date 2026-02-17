@@ -21,3 +21,20 @@ Remove the last tourist destination you have added
 display the final array as output
 */
 
+let touristPlace = ['cox bazar', 'rangamati', 'bandarban'];
+
+touristPlace.push('sajec')
+touristPlace.push('rajshahi', 'ponchogar')
+touristPlace.pop()
+console.log(touristPlace)
+
+/* 
+3. Checking Array Membership with ‘includes’
+Instructions:
+
+Create an array of books containing different book.
+
+Use the includes method to check if the array contains a javascript book.
+
+Print a message to the console indicating whether the element is present in the array or not.
+*/
